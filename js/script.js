@@ -21,7 +21,6 @@ jQuery(document).ready(function($) {
 	$(window).scroll(function(){
 
 		var scrollTop = $(this).scrollTop();
-		console.log(scrollTop);
 
 		// Show Content
 
@@ -75,7 +74,7 @@ jQuery(document).ready(function($) {
 
    	$("form[name = 'sendMessage']").submit(function(){
 
-   		var name = $("form[name = 'sendMessage'] input[name = 'name']").val();
+   			var name = $("form[name = 'sendMessage'] input[name = 'name']").val();
 			var email = $("form[name = 'sendMessage'] input[name = 'email']").val();
 			var subject = $("form[name = 'sendMessage'] input[name = 'subject']").val();
 			var message = $("form[name = 'sendMessage'] textarea").val();
@@ -85,8 +84,10 @@ jQuery(document).ready(function($) {
 				title: 'Thanks Bro!',
 				text: 'Your message has been sent successfully! I will reply as soon as possible',
 				type: 'success'
+			}, function(){
+				$("form input:not(input[type = 'submit']), form textarea").val("");
 			});
-
+	
 		event.preventDefault();
    	});
 });

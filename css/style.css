@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+    @media screen and (max-width: 480px) {
+        #contact-content {
+          height: auto;
+        }
+      }
+
+html, body {
+    height: 100%;
+}
+
+body {
+  background: #111;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.07);
+  padding-top: 20px;
+}
+
+header > aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+    @media screen and (max-width: 480px) {
+      header > aside {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+      }
+    }
+
+header > aside > img {
+  width: 230px;
+  min-height: 230px;
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+          box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 0 20px 10px 0;
+  -webkit-transition: .5s all;
+  -o-transition: .5s all;
+  transition: .5s all;
+}
+
+header > aside > img:hover {
+  width: 240px;
+}
+
+    @media screen and (max-width: 480px) {
+      header > aside > img {
+        margin: 0 0 10px;
+      }
+    }
+
+header div h1, header div h2 {
+  color: #FFF;
+  font-family: "Satisfy";
+  text-shadow: 0 1px 1px #000;
+}
+
+header div h1 {
+  color: #470099;
+  font-size: 40px;
+  line-height: 30px;
+}
+
+header div h2 {
+  margin-top: 5px;
+}
+
+#topMenu {
+  width: 100%;
+  height: 70px;
+  background: #470099;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-bottom: 2px solid #FFF;
+  -webkit-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+}
+
+#topMenu ul {
+  list-style: none;
+  display: block;
+}
+
+#topMenu li {
+  float: left;
+  margin: 6px;
+}
+
+#topMenu a {
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 0 1px 1px #000;
+  color: #FFF;
+  text-decoration: none;
+  -webkit-transition: .2s all ease-out;
+  -o-transition: .2s all ease-out;
+  transition: .2s all ease-out;
+}
+
+    @media screen and (max-width: 480px) {
+       #topMenu a {
+        font-size: 25px;
+       }
+    }
+
+#topMenu a:hover {
+  color: grey;
+}
+
+.content-containers {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 1%;
+  padding-bottom: 2px;
+}
+
+.content-containers > h1 {
+  color: #FFF;
+  font-family: "Satisfy", sans-serif;
+  font-size: 40px;
+  text-shadow: 0 2px 1px #000;
+}
+
+.content-containers > p {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  text-shadow: 0 2px 3px #000;
+  padding: 10px 10%;
+  margin-bottom: 10px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-bottom: 2px solid #FFF;
+  opacity: 0;
+}
+
+    @media screen and (max-width: 630px) {
+
+       .content-containers {
+          background-attachment: fixed;
+        }
+
+       .content-containers p {
+          font-size: 16px;
+       }
+    }
+
+.content-containers > p > a {
+  color: #FFF;
+}
+
+#projects-content {
+  padding: 100px 0;
+}
+
+#projects-content div {
+  width: 98%;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFF;
+  text-align: center;
+  opacity: 0;
+}
+
+#projects-content a {
+  color: #FFF;
+  text-decoration: none;
+  font-family: "Lobster Two", sans-serif;
+  text-shadow: 0 1px 1px #000;
+  font-size: 50px;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+
+}
+
+#projects-content a:hover {
+  font-size: 51px;
+}
+
+
+#projects-content > div p {
+  font-size: 20px;
+  text-shadow: 0 1px 1px #000;
+  font-family: "Josefin Sans", sans-serif;
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #FFF;
+
+}
+
+#contact-content {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#contact-content input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'ABeeZee', sans-serif;
+  opacity: 0;
+}
+
+#contact-content textarea {
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  font-family: 'ABeeZee', sans-serif;
+  opacity: 0;
+}
+
+#contact-content input[type = 'submit'] {
+  border: 0;
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid #FFF;
+  border-radius: 20px;
+  color: #FFF;
+  font-family: "Satisfy", sans-serif;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+  outline: none;
+  cursor: pointer;
+}
+
+#contact-content input[type = 'submit']:hover {
+  width: 320px;
+  font-size: 15px;
+}
+
+i {
+  color: #FFF;
+  position: fixed;
+  text-shadow: 0 1px 1px #000;
+  bottom: 2%;
+  right: 2%;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: .5s all;
+  -o-transition: .5s all;
+  transition: .5s all;
+}
+
+body > footer, body > footer a {
+  background: #111;
+  color: #FFF;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px 0;
+}

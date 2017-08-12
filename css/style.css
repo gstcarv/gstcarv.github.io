@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
 }
 
     @media screen and (max-width: 480px) {
@@ -129,15 +130,23 @@ header div h2 {
   transition: .2s all ease-out;
 }
 
-    @media screen and (max-width: 480px) {
-       #topMenu a {
-        font-size: 25px;
-       }
-    }
-
 #topMenu a:hover {
   color: grey;
 }
+
+      @media screen and (max-width: 480px) {
+        #topMenu a {
+        font-size: 25px;
+        }
+
+        #topMenu a:hover {
+          color: white;
+        }
+
+        #topMenu a:active {
+          color: grey
+        }
+      }
 
 .content-containers {
   width: 100%;

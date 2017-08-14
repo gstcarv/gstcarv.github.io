@@ -79,15 +79,22 @@ jQuery(document).ready(function($) {
 			var subject = $("form[name = 'sendMessage'] input[name = 'subject']").val();
 			var message = $("form[name = 'sendMessage'] textarea").val();
 
-   		emailjs.send("gmail","template_15SzVcN0", {Name: name,  Email: email, MessageSubject: subject, Message: message});
-	   		swal({
-				title: 'Thanks Bro!',
-				text: 'Your message has been sent successfully! I will reply as soon as possible',
-				type: 'success'
-			}, function(){
-				$("form input:not(input[type = 'submit']), form textarea").val("");
+		if(name == "" || email == "" || subject == "" || message == "") {
+			swal({
+				title: 'Error',
+				text: 'Fill out all forms',
+				type: 'error'
 			});
-	
+		} else {
+			emailjs.send("gmail","template_15SzVcN0", {Name: name,  Email: email, MessageSubject: subject, Message: message});
+			swal({
+			 title: 'Thanks Bro!',
+			 text: 'Your message has been sent successfully! I will reply as soon as possible',
+			 type: 'success'
+		 }, function(){
+			 $("form input:not(input[type = 'submit']), form textarea").val("");
+		 });
+		}
 		event.preventDefault();
    	});
 });

@@ -121,7 +121,7 @@ header div h2 {
 
 #topMenu a {
   font-size: 30px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
   text-shadow: 0 1px 1px #000;
   color: #FFF;
   text-decoration: none;
@@ -173,15 +173,13 @@ header div h2 {
 
 .content-containers > h1 {
   color: #FFF;
-  font-family: "Satisfy", sans-serif;
-  font-size: 40px;
+  font: 40px "Satisfy", sans-serif;
   text-shadow: 0 2px 1px #000;
 }
 
 .content-containers > p {
   color: #FFF;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 25px;
+  font: 25px "Quicksand", sans-serif;
   text-shadow: 0 2px 3px #000;
   padding: 10px 10%;
   margin-bottom: 10px;
@@ -224,9 +222,8 @@ header div h2 {
 #projects-content a {
   color: #FFF;
   text-decoration: none;
-  font-family: "Lobster Two", sans-serif;
+  font: 50px "Lobster Two", sans-serif;
   text-shadow: 0 1px 1px #000;
-  font-size: 50px;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
@@ -239,9 +236,8 @@ header div h2 {
 
 
 #projects-content > div p {
-  font-size: 20px;
   text-shadow: 0 1px 1px #000;
-  font-family: "Josefin Sans", sans-serif;
+  font: 20px "Quicksand", sans-serif;
   display: block;
   padding: 10px 0;
   width: 100%;

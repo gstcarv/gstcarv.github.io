@@ -2,20 +2,16 @@ jQuery(document).ready(function($) {
 
 	// Parallax Background
 
-	$('#home-content').parallax({
+	$('#about-content').parallax({
 		imageSrc: 'img/bg1.jpg'
 	});
 
-	$('#about-content').parallax({
+	$('#projects-content').parallax({
 		imageSrc: 'img/bg2.jpg'
 	});
 
-	$('#projects-content').parallax({
-		imageSrc: 'img/bg3.jpg'
-	});
-
 	$('#contact-content').parallax({
-		imageSrc: 'img/bg4.jpg'
+		imageSrc: 'img/bg3.jpg'
 	});
 
 	$(window).scroll(function(){

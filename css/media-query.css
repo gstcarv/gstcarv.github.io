@@ -1,0 +1,43 @@
+main {
+    padding: 0;
+}
+
+#mainContainer {
+    background: url('../img/home-bg.png') center center;
+    background-size: cover;
+}
+
+.section-title {
+    margin: 35px;
+}
+
+.meet-button {
+    background-color: white;
+    color: #4876bc;
+    border-radius: 200px;
+    transition: .2s;
+    border: none;
+}
+
+.meet-button::after {
+    display: none;
+}
+
+.meet-button:active {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.content-container p {
+    padding: 0 !important;
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
+
+.contact-info {
+    margin-top: 0;
+}
+
+.send-message {
+    margin-bottom: 20px;
+}

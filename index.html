@@ -1,95 +1,165 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Gustavo Carv.</title>
-      <meta charset = "utf-8">
-      <meta name="theme-color" content="#470099">
-      <meta name="viewport" content="width=device-width, initial-scale=.88, user-scalable=no">
-      <meta name="description" content="Personal WebPage of Gustavo Carvalho - WebDesigner!">
-      <meta name="author" content="Gustavo Carvalho">
-      <meta name="keywords" content="html,css,javascript,gstcarv,gustavo,webdesigner">
-      <meta name="robots" content="index,follow">
-      <link rel="icon" href="img/icon.ico">
-      <!-- My CSS -->
-      <link rel = "stylesheet" type = "text/css" href = "css/style.css">
-      <!-- JQuery Library -->
-      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <!-- Parallax.js -->
-      <script src = "js/parallax.min.js"></script>
-      <!-- EmailJS -->
-      <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-      <!-- Animate.css -->
-      <link rel = "stylesheet"  href = "css/animate.css">
-      <!-- Awesome Icons -->
-      <script src = "https://use.fontawesome.com/199c4a6289.js"></script>
-      <!-- Sweet Alerts -->
-      <script src="js/sweetalert.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
-      <!-- My JS -->
-      <script type = "text/javascript" src = "js/script.js"></script>
-      <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Quicksand|ABeeZee|Lobster+Two|Satisfy" rel="stylesheet">
-   </head>
-   <body>
-      <a href = "#top"><i class="fa fa-arrow-up fa-2x" aria-hidden="true" title = "Return Top"></i></a>
-      <header id = "top">
-         <aside>
-            <img class = "animated fadeInDown" src = "https://avatars0.githubusercontent.com/u/30243834" alt = "Me" title = "I'm So Beautiful xD">
-            <div>
-               <h1>Gustavo Carvalho</h1>
-               <h2 class = "animated fadeInUp">Web Developer</h2>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="theme-color" content="#2f5196">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Gustavo Carvalho • Developer</title>
+        <link rel="icon" href="img/icon.ico">
+
+        <!-- Style -->
+        <link rel="stylesheet" href="css/reset.css">        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" media="(max-width: 580px)" href="css/media-query.css" /> 
+    </head>
+    <body>
+       <header class="home-container" id="mainContainer">
+            <div class="home-content">
+                <h1>Gustavo Carvalho</h1>
+                <br>
+                <h2>Developer</h2>
+                <br>
+                <a href="#main" class="smooth">
+                    <button class="meet-button">Conhecer</button>                    
+                </a>
             </div>
-         </aside>
-         <nav id = "topMenu">
-            <ul>
-               <li><a href = "#about-content">About</a></li>
-               <li><a href = "#projects-content">Projects</a></li>
-               <li><a href = "#contact-content">Contact</a></li>
-            </ul>
-         </nav>
-      </header>
-      <section class = "content-containers" id = "about-content">
-         <h1>About ME</h1>
-         <br>
-         <p>Hey What's up, dude! Welcome!<br>For you who do not know me, my name is Gustavo.<br>Currently (2017), I am 15 years old. I live in São Paulo, Brazil.<br>I am in the 1st year of high school, doing computer technology at <a href = "http://www.vestibulinhoetec.com.br/home/" target = "blank">ETEC</a>, Hortolândia</p>
-         <br>
-         <p>I'm still a beginner in the programming career, but I already have some goals.<br>Among them, is to graduate in Systems Analysis, and be a good developer, as well as my brother, <a href = "http://tiagocsilva.github.io/" target = "blank">Tiago Silva</a></p>
-      </section>
-      <section class = "content-containers" id = "projects-content">
-         <h1>My Projects!</h1>
-         <p>Here are some of my projects</p>
-         <br>
-         <br>
-         <div>
-            <hr>
-            <h1>
-               <a href = "http://yuribarbosa.esy.es">Yuri Barbosa</a>
-            </h1>
-            <p> One Page: <br> HTML5 + CSS3</p>
-            <br>
-            <h1>
-               <a href = "http://gstcarv.github.io/ParallaxBg">Parallax.JS Test</a>
-            </h1>
-            <p> One Page: <br> HTML5 + CSS3 + JavaScript</p>
-            <br>
-            <br>
-            <hr>
-         </div>
-      </section>
-      <section class = "content-containers" id = "contact-content">
-         <h1>Contact Me, Bro!</h1>
-         <br>
-         <br>
-         <form name = "sendMessage" onsubmit= "return false">
-            <input type="text" name="name" placeholder = "Your Name"><br>
-            <input type="email" name="email" placeholder = "Your E-Mail"><br>
-            <input type="text" name = "subject" placeholder = "Message Subject"><br>
-            <textarea placeholder="Your Message! ❤"></textarea><br>
-            <input type="submit" value="GO, BRO!">
-         </form>
-      </section>
-      <footer>
-         2017, GitHub: <a href = "https://github.com/gstcarv">gstcarv</a>
-      </footer>
-   </body>
+       </header>
+       <main id="main">
+            <h3 class="section-title"><i class="fa fa-address-book-o"></i> Biografia</h3>
+            <section class="content-container">
+                <p>
+                   Olá! Meu nome é Gustavo Carvalho, tenho 16 anos. 
+                   Sou iniciante na área de desenvolvimento, porém tenho muitos objetivos a serem alcançados
+                   ao decorrer da carreira. Entre esses objetivos estão, primeiramente, 
+                   formar-me em Análise de Sistemas e, com isso, me tornar um desenvolvedor Full Stack de sucesso.
+                </p>
+                <p> 
+                   Atualmente, curso o 2º ano do Ensino Médio integrado ao Técnico em Informática na <a href="http://www.vestibulinhoetec.com.br/home/" target="_blank">Etec</a> Hortolândia.
+                   Me formarei em 2019, na qual estarei hábil para frequentar uma universidade.
+                </p>
+            </section>
+            <h3 class="section-title"><i class="fa fa-code"></i> Habilidades</h3>
+            <section class="content-container">
+                <div class="skill-container">
+                    <span class="skill-title">HTML5</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="80%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">CSS3</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">Javascript</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="60%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">PHP</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="40%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">Vue</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="70%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">Angular</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="10%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">jQuery</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="50%"></div>
+                    </div>
+                </div>
+                 <div class="skill-container">
+                    <span class="skill-title">SQL</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="65%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">Android</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="25%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">Firebase</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="60%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">Java</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="15%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">C#</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="20%"></div>
+                    </div>
+                </div>
+                <div class="skill-container">
+                    <span class="skill-title">C++</span>
+                    <div class="skill-bar">
+                        <div class="skill-bar-progress" data-progress="30%"></div>
+                    </div>
+                </div>
+            </section>
+            <h3 class="section-title"><i class="fa fa-envelope"></i> Contato</h3>
+            <section class="content-container contact">
+                <p>Precisa de um trabalho? Me mande um e-mail para batermos um papo!</p>
+                <div class="contact-info">
+                    
+                    <a href="mailto:gstcarv@gmail.com">
+                        <button class="send-message">Enviar Mensagem</button>
+                    </a>
+                    <br>                    
+                    <span>
+                        <i class="fa fa-envelope"></i> 
+                        gstcarv@gmail.com
+                    </span>
+                    <br>
+                    <br>
+                    <div class="social">
+                        <a href="http://github.com/gstcarv" target="_blank">
+                            <i class="fa fa-github fa-3x"></i>
+                        </a>
+                        <a href="https://www.facebook.com/GustaCarv" target="_blank">
+                            <i class="fa fa-facebook fa-3x"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+       </main>
+
+       <footer class="page-footer">• 2018 •</footer>
+
+        <!-- jquery -->
+        <script src="libs/jquery/jquery-3.3.1.min.js"></script>
+
+        <!-- plugins -->
+        <script src="libs/parallax/parallax.min.js"></script>
+
+        <!-- js -->
+        <script src="js/script.js"></script>
+
+        <!-- font awesome -->
+        <script src="https://use.fontawesome.com/dc1cb0d56f.js"></script>
+
+    </body>
 </html>

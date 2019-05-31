@@ -17,10 +17,11 @@ a {
 /* Home Container */
 .home-container {
 	width: 100%;
-    height: 100%;
+    	height: 100%;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+	background-color: #444;
 }
 
 .home-content {

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "HTML5",
+    "progress": 90
+  },
+  {
+    "name": "CSS3",
+    "progress": 90
+  },
+  {
+    "name": "ES6 / JS",
+    "progress": 75
+  },
+  {
+    "name": "Vue.js",
+    "progress": 90
+  },
+  {
+    "name": "React.js",
+    "progress": 65
+  },
+  {
+    "name": "React Native",
+    "progress": 75
+  },
+  {
+    "name": "Node.js",
+    "progress": 60
+  },
+  {
+    "name": "Express",
+    "progress": 60
+  },
+  {
+    "name": "jQuery",
+    "progress": 65
+  },
+  {
+    "name": "MongoDB",
+    "progress": 45
+  },
+  {
+    "name": "GIT",
+    "progress": 50
+  },
+  {
+    "name": "SQL",
+    "progress": 60
+  },
+  {
+    "name": "Firebase",
+    "progress": 55
+  },
+  {
+    "name": "PHP",
+    "progress": 30
+  },
+  {
+    "name": "Bootstrap",
+    "progress": 70
+  },
+  {
+    "name": "Materialize",
+    "progress": 60
+  },
+  {
+    "name": "Android",
+    "progress": 40
+  },
+  {
+    "name": "C#",
+    "progress": 40
+  },
+  {
+    "name": "Java",
+    "progress": 30
+  },
+  {
+    "name": "Adobe XD",
+    "progress": 80
+  },
+  {
+    "name": "Photoshop",
+    "progress": 30
+  }
+]

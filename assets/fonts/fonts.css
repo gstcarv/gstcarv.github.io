@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Nordic Regular";
+  src: url('./nordic/Nordic Alternative Regular.ttf')
+}
+
+@font-face {
+  font-family: "Coves";
+  src: url('./coves/Coves Light.otf');
+  font-weight: lighter
+}
+
+@font-face {
+  font-family: "Oneday";
+  src: url('./oneday/ONEDAY.ttf')
+}

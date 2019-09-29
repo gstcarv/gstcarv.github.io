@@ -2,9 +2,52 @@ main {
     padding: 0;
 }
 
-#mainContainer {
-    background: url('../img/home-bg.png') center center;
-    background-size: cover;
+.top-logo-container {
+    left: 20px;
+    top: 16px;
+}
+
+.gstcarv {
+    font-size: 20px;
+}
+
+.credits {
+    display: none
+}
+
+.floating-image-container {
+    animation: none
+}
+
+.principal-text-name {
+    font-size: 40px
+}
+
+.presentation-container {
+    transform: initial !important
+}
+
+.scroll-wrapper {
+
+}
+
+.scroll-wrapper .mouse-scroll {
+	width: 16px;
+	height: 28px;
+}
+
+.mouse-scroll::after {
+    width: 3px;
+    height: 3px;
+}
+
+
+.floating-image-container {
+    width: 300px;
+    height: 250px;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) !important
 }
 
 .section-title {
@@ -24,14 +67,14 @@ main {
 }
 
 .meet-button:active {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .content-container p {
     padding: 0 !important;
     text-align: justify;
     margin-bottom: 10px;
-
+    font-size: 17px;
 }
 
 .contact-info {
@@ -40,4 +83,58 @@ main {
 
 .send-message {
     margin-bottom: 20px;
+}
+
+.title-container {
+    border-color: #222;
+}
+
+.title {
+    font-size: 50px;
+    margin-top: -10px
+}
+
+.small-text {
+    font-size: 15px
+}
+
+.contact-methods {
+    flex-direction: column;
+}
+
+.contact-methods > span {
+    margin: 40px 0;
+}
+
+.btn-send-mail {
+    background: #fff;
+    border: none;
+    color: #000;
+    transition: transform .3s;
+    -webkit-tap-highlight-color: transparent !important
+}
+
+.btn-send-mail:active {
+    transform: scale(.8)
+}
+
+.about-box {
+    flex-direction: column
+}
+
+.about-box > div {
+    width: 100%;
+}
+
+.about-box .about-image {
+    height: 500px;
+    background-position: top center;
+}
+
+.about-content {
+    padding: 40px;
+}
+
+.scroll-wrapper {
+    bottom: 7px
 }

@@ -7,6 +7,10 @@ main {
     top: 16px;
 }
 
+.logo-letter:last-child {
+    margin-left: -6px;
+}
+
 .gstcarv {
     font-size: 20px;
 }

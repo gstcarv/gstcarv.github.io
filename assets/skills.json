@@ -20,8 +20,12 @@
     "progress": 65
   },
   {
+    "name": "Angular",
+    "progress": 40
+  },
+  {
     "name": "React Native",
-    "progress": 75
+    "progress": 80
   },
   {
     "name": "Node.js",
@@ -70,6 +74,10 @@
   {
     "name": "C#",
     "progress": 40
+  },
+  {
+    "name": ".Net Core",
+    "progress": 50
   },
   {
     "name": "Java",
